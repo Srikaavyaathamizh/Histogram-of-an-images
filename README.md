@@ -32,7 +32,7 @@ The Histogram of gray scale image and color image is shown.
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-gray_image = cv2.imread('download.jpeg', cv2.IMREAD_GRAYSCALE)
+gray_image = cv2.imread('1.jpg', cv2.IMREAD_GRAYSCALE)
 plt.title("Grayscale Image")
 plt.imshow(gray_image, cmap='gray')
 plt.axis('off')
@@ -56,7 +56,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 # Step 1: Get the input color image
-color_image = cv2.imread('Eagle_in_Flight.jpg')
+color_image = cv2.imread('2.jpg')
 # Step 2: Display the input color image
 plt.title("Input Color Image")
 plt.imshow(cv2.cvtColor(color_image, cv2.COLOR_BGR2RGB))
